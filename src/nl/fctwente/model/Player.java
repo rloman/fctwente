@@ -4,6 +4,7 @@ public class Player {
 
     private long id;
     private String name;
+    private int goals;
 
     public long getId() {
         return id;
@@ -11,6 +12,14 @@ public class Player {
 
     public String getName() {
         return name;
+    }
+
+    public int getGoals() {
+        return goals;
+    }
+
+    public void setGoals(int goals) {
+        this.goals = goals;
     }
 
     public void setName(String name) {
